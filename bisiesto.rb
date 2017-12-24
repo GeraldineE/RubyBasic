@@ -3,5 +3,5 @@ def bisiestos_en_rango (desde, hasta)
 end
 
 def es_bisiesto (anio)
-    anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0
+   (anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0
 end
